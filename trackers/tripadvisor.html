@@ -1,0 +1,608 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tracker | TripAdvisor</title>
+    <meta name="description" content="Tracker profile of TripAdvisor. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="same-origin">
+
+    
+    <!-- OG params for sharable content -->
+    <meta property="og:title" content="Tracker | TripAdvisor">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://whotracks.me/trackers/tripadvisor.html">
+    <meta property="og:description" content="Tracker profile of TripAdvisor. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+
+    <!-- Stylesheets -->
+    <link rel="icon" href="../static/img/favicon-2.ico">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <link rel="stylesheet" href="../static/css/easy-autocomplete.min.css">
+
+    <!--add this block to templates that need extra styling-->
+    
+    <link rel="stylesheet" href="../static/css/trackers/profile.css">
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Plotly JS -->
+    <script src="../static/js/plotly-v1.29.3.min.js"></script>
+    <!-- For relative path resolution -->
+    <script>
+        var pathToRoot = ".."
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-blue" role="navigation">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="..">
+                    <img class="logo" alt="Who Tracks Me" src="../static/img/logo-white.svg">
+                </a>
+                </div>
+            </div>
+
+            <div class="col-md-offset-1 col-md-9 col-sm-0">
+                <!--Collapsed under menu in mobile-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="imaginary_container">
+                        <div class="input-group stylish-input-group">
+                            <input id="search-bar" class="form-control" type="text" placeholder="Search website or tracker">
+                        </div>
+                    </ul>
+                                <!--Site links-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li
+                             class="active" 
+                        >
+                            <a class="nav-button" href="../trackers.html">TRACKERS</a>
+                        </li>
+                        <li
+                            
+                        >
+                            <a class="nav-button" href="../websites.html">WEBSITES</a>
+                        </li>
+                        <li
+                            
+                        >
+                            <a class="nav-button" href="../blog.html">BLOG</a>
+                        </li>
+                    </ul>
+                    <!--Search bar-->
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>TripAdvisor</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var operates_under_selector = '#operates-under p',
+        $operates_under_list = $(operates_under_selector),
+        operates_list_size = $operates_under_list.length,
+        items_to_show = 2,
+        $expand = $('.operates-expand'),
+        $collapse = $('.operates-collapse');
+    $(operates_under_selector + ':lt(' +items_to_show+')').show();
+    $expand.click(function(e) {
+        items_to_show = operates_list_size;
+        $(operates_under_selector + ':lt('+items_to_show+')').show();
+        if(items_to_show === operates_list_size) {
+            $collapse.removeClass('hidden');
+            $expand.addClass('hidden');
+        }
+    });
+
+    $collapse.click(function() {
+        $(this).addClass('hidden');
+        $expand.removeClass('hidden');
+        $operates_under_list.not(':lt(2)').hide();
+    });
+
+});
+</script>
+<div id="tracker-page" class="overview-page">
+    <div id="overview-header">
+        <div class="container">
+            <div class="row overview-info inverse">
+                <div class="col-md-6 col-sm-6">
+  <h1>TripAdvisor</h1>
+  
+    <p class="header">Owned by IAC (InterActiveCorp)</p>
+  
+  
+</div>
+
+<div class="col-md-6 col-sm-6">
+  <div class="overview-info-right">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <p class="header">TRACKER RANK</p>
+        <p class="tracker-rank">
+          <span class="emphasis">355</span>
+          /947
+        </p>
+        <p class="description">Relatively prevalent</p>
+      </div>
+
+      <div class="col-md-6 col-sm-6">
+        
+          <p class="header">OPERATES UNDER</p>
+          <div id="operates-under">
+          
+            <p>
+              <a class="profile-label"
+                 target="_blank"
+                 rel="noreferrer"
+                 href="//tamgrt.com"> tamgrt.com
+              </a>
+            </p>
+          
+            <p>
+              <a class="profile-label"
+                 target="_blank"
+                 rel="noreferrer"
+                 href="//tripadvisor.com"> tripadvisor.com
+              </a>
+            </p>
+          
+            <p>
+              <a class="profile-label"
+                 target="_blank"
+                 rel="noreferrer"
+                 href="//tripadvisor.co.uk"> tripadvisor.co.uk
+              </a>
+            </p>
+          
+            <p>
+              <a class="profile-label"
+                 target="_blank"
+                 rel="noreferrer"
+                 href="//tacdn.com"> tacdn.com
+              </a>
+            </p>
+          
+            <p>
+              <a class="profile-label"
+                 target="_blank"
+                 rel="noreferrer"
+                 href="//tripadvisor.de"> tripadvisor.de
+              </a>
+            </p>
+          
+
+          
+              <a class="operates-expand" href="#">
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>Expand
+              </a>
+              <a class="operates-collapse hidden" href="#">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>Collapse
+              </a>
+          
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="overview-header-box">
+  <div class="row">
+
+
+    <!-- LEFT COLUMN -->
+    <div class="col-md-6 col-sm-6">
+        <h3>TRACKER REACH</h3>
+        <div class="trend">
+          <img class="trackers-icon" src="../static/img/page.svg">
+          <span class="percentage">
+            0.2%
+            <span class="graph"><div id="e5356c82-fdce-4cd2-abf4-584411743c10" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("e5356c82-fdce-4cd2-abf4-584411743c10", [{"type": "scatter", "x": ["2017-05-01", "2017-06-01", "2017-07-01", "2017-08-01", "2017-09-01", "2017-10-01", "2017-11-01", "2017-12-01", "2018-01-01", "2018-02-01", "2018-03-01", "2018-04-01"], "y": [0.2716077138268064, 0.33128847570970893, 0.3661625136292617, 0.3624467216039551, 0.29833244317612145, 0.2653953250810564, 0.20608070689822783, 0.17682660728312857, 0.26676398573146853, 0.1707380192989446, 0.15331475749428544, 0.15954417681711433], "text": ["0.27% on May 17", "0.33% on Jun 17", "0.37% on Jul 17", "0.36% on Aug 17", "0.30% on Sep 17", "0.27% on Oct 17", "0.21% on Nov 17", "0.18% on Dec 17", "0.27% on Jan 18", "0.17% on Feb 18", "0.15% on Mar 18", "0.16% on Apr 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "lines", "marker": {"size": 10}}, {"type": "scatter", "x": ["2018-04-01"], "y": [0.15954417681711433], "text": ["0.16% on Apr 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "markers", "marker": {"size": 10}}], {"showlegend": false, "margin": {"l": 10, "r": 10, "b": 40, "t": 30, "pad": 5}, "height": 100, "width": 153, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "#00000000", "font": {"family": "monospace", "size": 13, "color": "#BFCBD6"}}, "xaxis": {"autorange": true, "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "hoverformat": "%b %y", "ticks": "", "showticklabels": false}, "yaxis": {"range": [0.1379832817448569, 0.38447063931072484], "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "ticks": "", "showticklabels": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+
+          <p class="description">of web traffic is tracked by TripAdvisor</p>
+      </div>
+      <div class="trend">
+          <img class="trackers-icon" src="../static/img/domain.svg">
+          <span class="percentage">
+            0.3%
+            <span class="graph"><div id="96157a96-651c-435d-bd0e-9fa7f9da567f" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("96157a96-651c-435d-bd0e-9fa7f9da567f", [{"type": "scatter", "x": ["2017-05-01", "2017-06-01", "2017-07-01", "2017-08-01", "2017-09-01", "2017-10-01", "2017-11-01", "2017-12-01", "2018-01-01", "2018-02-01", "2018-03-01", "2018-04-01"], "y": [0.3951503139249715, 0.39042920832563904, 0.42442587352767, 0.40143514757649607, 0.38209078974642435, 0.3637214054047401, 0.33769621314453396, 0.3103655655311654, 0.31769614971233484, 0.2783553232419408, 0.3093921189389339, 0.31733010966237807], "text": ["0.40% on May 17", "0.39% on Jun 17", "0.42% on Jul 17", "0.40% on Aug 17", "0.38% on Sep 17", "0.36% on Oct 17", "0.34% on Nov 17", "0.31% on Dec 17", "0.32% on Jan 18", "0.28% on Feb 18", "0.31% on Mar 18", "0.32% on Apr 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "lines", "marker": {"size": 10}}, {"type": "scatter", "x": ["2018-04-01"], "y": [0.31733010966237807], "text": ["0.32% on Apr 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "markers", "marker": {"size": 10}}], {"showlegend": false, "margin": {"l": 10, "r": 10, "b": 40, "t": 30, "pad": 5}, "height": 100, "width": 153, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "#00000000", "font": {"family": "monospace", "size": 13, "color": "#BFCBD6"}}, "xaxis": {"autorange": true, "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "hoverformat": "%b %y", "ticks": "", "showticklabels": false}, "yaxis": {"range": [0.25051979091774673, 0.4456471672040535], "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "ticks": "", "showticklabels": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+          <p class="description">of sites use the TripAdvisor tracker</p>
+      </div>
+      <p class="subtitle">
+        
+          Data from May 2017 to April 2018.
+        
+      </p>
+    </div>
+
+
+    <!-- Right COLUMN -->
+    <div class="col-md-6 col-sm-6">
+          <h3>SEEN ON THESE TYPES OF WEBSITES</h3>
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">96% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="120.0" aria-valuemin="0" aria-valuemax="100" style="width: 120.0%">
+                Recreation
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">4% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="5.0" aria-valuemin="0" aria-valuemax="100" style="width: 5.0%">
+                Business
+                </div>
+              </div>
+            </div>
+            
+          
+
+          <h3>TRACKING TYPE</h3>
+          <div class="row tracking-methods">
+            
+              <div  class="col-md-8" >
+                <img src="../static/img/cookies.svg">
+<p class="tracking-method">
+  <span class="highlight">COOKIES</span> are files placed by the website, stored in the browser
+  that is used to identify you to the website. <div>
+    <a class="learn-more" href="../blog/cookies.html">
+      Learn more
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</p>
+              </div>
+            
+
+            
+            
+          </div>
+    </div>
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="similar-trackers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row tracker-category">
+                        <div class="col-md-11">
+                        <h4>TRACKER CATEGORY</h4>
+                        
+                            <span class="cat-item">
+                                <i class="fa fa-circle" style="color: #80C87D" aria-hidden="true"></i>
+                                Misc
+                            </span>
+                            <p class="tracker-desc">This tracker does not fit in other categories or has not yet been labelled.</p>
+                        
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/tracker_categories.html">Learn about our tracker categories</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/what_is_a_tracker.html">What is a tracker?</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-sm-6 col-xs-12">
+                    <h4>SIMILAR TRACKERS</h4>
+                    <ul>
+                        
+                            <li>
+                                <a href="../trackers/outbrain.html" class="entity-name">
+                                Outbrain
+                                </a>
+                                
+                                    <span>
+                                        Outbrain
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/linkedin.html" class="entity-name">
+                                LinkedIn
+                                </a>
+                                
+                                    <span>
+                                        LinkedIn
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/microsoft.html" class="entity-name">
+                                Microsoft Services
+                                </a>
+                                
+                                    <span>
+                                        Microsoft
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/imgur.html" class="entity-name">
+                                Imgur
+                                </a>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tag-cloud">
+        <div class="container">
+            <div class="row">
+                <h2 class="title">Presence on top sites</h2>
+                
+                    <script src="../static/js/d3.min.js"></script>
+<script src="../static/js/d3.layout.cloud.js"></script>
+
+<script>
+        function sanitiseCategory(cat) {
+            return cat.replace(/\s/g, '_').toLowerCase();
+        }
+
+        function drawTagCloud(cat, siteList) {
+            var container = document.getElementById('tag_cloud_container');
+            var width = Math.max(container.offsetWidth, 300);
+            var height = Math.max(container.offsetHeight - 5, 400);
+            var containerSvg = document.getElementById('tag_cloud');
+            containerSvg.setAttribute('width', width);
+            containerSvg.setAttribute('height', height);
+
+            var sites = JSON.parse(siteList);
+            var minSize = 20;
+            var maxSize = 100;
+            var scaleFactor = (maxSize - minSize) / 0.3;
+
+            var layout = d3.layout.cloud()
+                .size([width, height])
+                .words(sites.map(function (d) {
+                    return {
+                        text: d.site.replace('www.', ''),
+                        size: Math.min(maxSize, minSize + d.frequency * scaleFactor),
+                        rotate: 0,
+                        opacity: 0.5 + (d.site_freq || 0. * 0.7),
+                        colour: d.site_cat,
+                        href: d.url,
+                        category: d.category,
+                    };
+                }))
+                .padding(3)
+                .rotate(function (d) { return 0 })
+                .font("Impact")
+                .fontSize(function (d) { return d.size; })
+                .on("end", draw);
+
+            layout.start();
+
+            function draw(words) {
+                d3.select('#tag_cloud')
+                    .append("g")
+                    .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", function (d) { return d.size + "px"; })
+                    .style("font-family", "Helvetica")
+                    .style("fill", function (d) { return d.colour })
+                    .attr("class", function (d) { return "category-" + sanitiseCategory(d.category) })
+                    .attr("opacity", function (d) { return d.opacity })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .insert('a')
+                    .attr("href", function (d) { return d.href })
+                    .text(function (d) { return d.text; });
+            }
+        }
+
+        var activeCategories = [];
+
+        function toggleTagCloudCategory(cat) {
+            if (cat === "all") {
+                // unselect buttons
+                activeCategories.forEach(function(otherCat) {
+                    document.getElementById('button-' + otherCat).classList.remove('active');
+                });
+                document.getElementById('button-all').classList.add('active');
+                // make everything visible
+                d3.selectAll("#tag_cloud text").style("visibility", "visible");
+                activeCategories = [];
+            } else {
+                document.getElementById('button-all').classList.remove('active');
+                document.getElementById('button-' + cat).classList.add('active');
+
+                if (activeCategories.length === 0) {
+                    // hide everything
+                    d3.selectAll("#tag_cloud text").style("visibility", "hidden");
+                }
+                // make just elements from specified categories visible
+                d3.selectAll("#tag_cloud text.category-" + sanitiseCategory(cat)).style("visibility", "visible");
+                activeCategories.push(cat);
+            }
+        }
+    </script>
+
+
+<ul class="nav nav-tabs">
+    <li class="active" id="button-all">
+        <a href="#all" onclick="toggleTagCloudCategory('all')">Show all</a>
+    </li>
+    
+        
+    
+        
+            <li id="button-Business">
+                <a href="#Business" onclick="toggleTagCloudCategory('Business')">Business</a>
+            </li>
+        
+    
+        
+            <li id="button-Recreation">
+                <a href="#Recreation" onclick="toggleTagCloudCategory('Recreation')">Recreation</a>
+            </li>
+        
+    
+</ul>
+
+<div class="tab-content">
+    <div id="tag_cloud_container" class="tab-pane fade in active">
+        <svg id="tag_cloud" height=400></svg>
+        <script>drawTagCloud('all', '[{"category": "Recreation", "frequency": 0.1452005608242573, "site": "tripadvisor.com", "site_cat": "#B9D3EE", "site_freq": 0.9939246047219532, "url": "../websites/tripadvisor.com.html"}, {"category": "Recreation", "frequency": 0.10065986890824864, "site": "booking.com", "site_cat": "#B9D3EE", "site_freq": 0.09998247810675943, "url": "../websites/booking.com.html"}, {"category": "Recreation", "frequency": 0.0800975378492059, "site": "tripadvisor.de", "site_cat": "#B9D3EE", "site_freq": 0.9985567671584348, "url": "../websites/tripadvisor.de.html"}, {"category": "", "frequency": 0.05753777570337321, "site": "tripadvisor.fr", "site_cat": "#000", "site_freq": 0.9987560205416096, "url": null}, {"category": "Recreation", "frequency": 0.045889463229443636, "site": "hotels.com", "site_cat": "#B9D3EE", "site_freq": 0.6140549312744351, "url": "../websites/hotels.com.html"}, {"category": "", "frequency": 0.04337200178611133, "site": "tripadvisor.co.uk", "site_cat": "#000", "site_freq": 0.9995765044678778, "url": null}, {"category": "Business", "frequency": 0.030011080505476857, "site": "marriott.com", "site_cat": "blue", "site_freq": 0.4341654039397081, "url": "../websites/marriott.com.html"}, {"category": "Recreation", "frequency": 0.0151157940385778, "site": "expedia.de", "site_cat": "#B9D3EE", "site_freq": 0.35516601183023183, "url": "../websites/expedia.de.html"}, {"category": "", "frequency": 0.014487347459293384, "site": "tripadvisor.it", "site_cat": "#000", "site_freq": 0.998859749144812, "url": null}, {"category": "", "frequency": 0.014095946519563616, "site": "tripadvisor.ca", "site_cat": "#000", "site_freq": 0.9997393457578522, "url": null}, {"category": "", "frequency": 0.012975033030196674, "site": "accorhotels.com", "site_cat": "#000", "site_freq": 0.5735987002437043, "url": null}, {"category": "", "frequency": 0.012280434179408635, "site": "agoda.com", "site_cat": "#000", "site_freq": 0.38721826293528017, "url": null}, {"category": "Recreation", "frequency": 0.011539896251187523, "site": "tui.com", "site_cat": "#B9D3EE", "site_freq": 0.6397066313537739, "url": "../websites/tui.com.html"}, {"category": "", "frequency": 0.00979237374563349, "site": "tripadvisor.nl", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "", "frequency": 0.009299906835550964, "site": "tripadvisor.ru", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "", "frequency": 0.00892320640059978, "site": "tripadvisor.es", "site_cat": "#000", "site_freq": 0.9987659399424106, "url": null}, {"category": "", "frequency": 0.008575906975205761, "site": "seatguru.com", "site_cat": "#000", "site_freq": 0.993401447424436, "url": null}, {"category": "", "frequency": 0.007660800552738979, "site": "tripadvisor.ch", "site_cat": "#000", "site_freq": 0.9995204986813714, "url": null}, {"category": "Recreation", "frequency": 0.0075983234074300035, "site": "expedia.com", "site_cat": "#B9D3EE", "site_freq": 0.0950574712643678, "url": "../websites/expedia.com.html"}, {"category": "", "frequency": 0.006236689152313768, "site": "tripadvisor.com.au", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "Recreation", "frequency": 0.006170536880810145, "site": "hotel.de", "site_cat": "#B9D3EE", "site_freq": 0.4790983021829077, "url": "../websites/hotel.de.html"}, {"category": "", "frequency": 0.006030882085413608, "site": "starwoodhotels.com", "site_cat": "#000", "site_freq": 0.2285992895451696, "url": null}, {"category": "", "frequency": 0.005124963478433441, "site": "amoma.com", "site_cat": "#000", "site_freq": 0.7208581028689584, "url": null}, {"category": "", "frequency": 0.004625146315961624, "site": "tripadvisor.at", "site_cat": "#000", "site_freq": 0.9976218787158144, "url": null}, {"category": "", "frequency": 0.004588395054015168, "site": "tripadvisor.be", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "Recreation", "frequency": 0.004413826559769496, "site": "weg.de", "site_cat": "#B9D3EE", "site_freq": 0.5837181044957472, "url": "../websites/weg.de.html"}, {"category": "", "frequency": 0.0038221312424315365, "site": "priceline.com", "site_cat": "#000", "site_freq": 0.17735334242837653, "url": null}, {"category": "", "frequency": 0.003807430737652954, "site": "hilton.com", "site_cat": "#000", "site_freq": 0.07017781541066892, "url": null}, {"category": "", "frequency": 0.003713715019689489, "site": "tripadvisor.in", "site_cat": "#000", "site_freq": 0.9990113692535838, "url": null}, {"category": "", "frequency": 0.0035795729135849204, "site": "routard.com", "site_cat": "#000", "site_freq": 0.2116931101934362, "url": null}, {"category": "", "frequency": 0.0034693191277455487, "site": "expedia.ca", "site_cat": "#000", "site_freq": 0.24976848789522424, "url": null}, {"category": "", "frequency": 0.0032341110512882237, "site": "jet2holidays.com", "site_cat": "#000", "site_freq": 0.7609165585819282, "url": null}, {"category": "Business", "frequency": 0.003044842052263969, "site": "oui.sncf", "site_cat": "blue", "site_freq": 0.019877400702966612, "url": "../websites/oui.sncf.html"}, {"category": "", "frequency": 0.0028500603639477467, "site": "hotwire.com", "site_cat": "#000", "site_freq": 0.37884709330727895, "url": null}, {"category": "", "frequency": 0.0028133091020012897, "site": "tripadvisor.ie", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "", "frequency": 0.0027195933840378247, "site": "thomascook.com", "site_cat": "#000", "site_freq": 0.7276302851524091, "url": null}, {"category": "", "frequency": 0.0026203649767823907, "site": "expedia.fr", "site_cat": "#000", "site_freq": 0.2476554359152484, "url": null}, {"category": "", "frequency": 0.0025634005207653817, "site": "tripadvisor.co.nz", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "Business", "frequency": 0.002467847239704593, "site": "go.com", "site_cat": "blue", "site_freq": 0.026504835208209985, "url": "../websites/go.com.html"}, {"category": "", "frequency": 0.002374131521741128, "site": "tripadvisor.com.br", "site_cat": "#000", "site_freq": 0.9969135802469136, "url": null}, {"category": "", "frequency": 0.002359431016962545, "site": "rci.com", "site_cat": "#000", "site_freq": 0.4006240249609984, "url": null}, {"category": "", "frequency": 0.0022050757167874253, "site": "tripadvisor.jp", "site_cat": "#000", "site_freq": 0.9828009828009828, "url": null}, {"category": "", "frequency": 0.002054395542806951, "site": "yellowpages.com", "site_cat": "#000", "site_freq": 0.11903747870528107, "url": null}, {"category": "", "frequency": 0.002015806717763171, "site": "melia.com", "site_cat": "#000", "site_freq": 0.3428125, "url": null}, {"category": "", "frequency": 0.0020121315915685254, "site": "keukenhof.nl", "site_cat": "#000", "site_freq": 0.9563318777292577, "url": null}, {"category": "", "frequency": 0.0018853397378532485, "site": "tripadvisor.co.za", "site_cat": "#000", "site_freq": 1.0, "url": null}, {"category": "", "frequency": 0.0018853397378532485, "site": "bestwestern.com", "site_cat": "#000", "site_freq": 0.33452885555917833, "url": null}, {"category": "", "frequency": 0.0018632889806853745, "site": "loveholidays.com", "site_cat": "#000", "site_freq": 0.6365348399246704, "url": null}, {"category": "", "frequency": 0.0018559387282960828, "site": "radissonblu.com", "site_cat": "#000", "site_freq": 0.6352201257861635, "url": null}]')</script>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>TripAdvisor</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 menu">
+                <a href="/privacy-policy.html">
+                    Privacy Policy
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://cliqz.com/en/about">
+                    About
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://cliqz.com/en/about/careers">
+                    Careers
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://cliqz.com/en/download">
+                    Cliqz browser
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://www.ghostery.com/en/products/">
+                    Ghostery add-on
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <i class="fa fa fa-github"></i>
+                <a target="_blank" rel="noreferrer" href="https://github.com/cliqz-oss/whotracks.me">
+                     Get the data
+                </a>
+                <div class="copyright">
+                    &copy; Cliqz - All rights reserved. Last updated on 30.05.2018
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12 logos">
+                <a href="https://cliqz.com/en/"
+                    target="_blank">
+                    <span class="cliqz-logo"></span>
+                </a>
+                <a href="https://www.ghostery.com/"
+                   target="_blank">
+                    <span class="ghostery-logo"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Local javascript modules -->
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.easy-autocomplete.js"></script>
+    <script type="text/javascript" src="../static/js/search-bar.js"></script>
+
+</footer>
+<!-- END OF FOOTER -->
